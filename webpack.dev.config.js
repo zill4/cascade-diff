@@ -1,7 +1,7 @@
 module.exports = {
     mode: 'development',
     entry: {
-        'diff': ['./src/scripts/modules/Diff.ts'],
+        'cascade-diff': ['./src/scripts/modules/Diff.ts'],
         'mochaRunner': './src/mocha/BrowserRunner.ts'
     },
     output: {

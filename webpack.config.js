@@ -1,7 +1,7 @@
 module.exports = {
     mode: 'production',
     entry: {
-        'diff': ['./src/scripts/modules/Diff.ts']
+        'cascade-diff': ['./src/scripts/modules/']
     },
     output: {
         filename: './bundle/[name].min.js',
