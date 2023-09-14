@@ -7,7 +7,7 @@
   "homepage": "https://sjohnsonaz.github.io/cascade",
   "license": "MIT",
   "main": "dist/scripts/modules/Diff.js",
-  "typings": "dist/scripts/modules/Diff.d.ts",
+  "module": "./src/scripts/modules/Diff.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "rimraf ./dist && tsc --declaration",
