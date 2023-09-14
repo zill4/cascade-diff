@@ -22,6 +22,11 @@
     "noUnusedParameters": false,
     "noImplicitThis": false,
     "ignoreDeprecations": "5.0",
+    "paths": {
+      "cascade-diff": [
+        "./src/scripts/modules/Diff.ts"
+      ]
+    },
     "lib": [
       "dom",
       "es2017"
