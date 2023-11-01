@@ -9,7 +9,7 @@
   "main": "dist/scripts/modules/Diff.js",
   "module": "./src/scripts/modules/Diff.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --declaration",
     "prepublishOnly": "rimraf ./dist && tsc --declaration",
     "clean": "rimraf ./dist",
     "test": "tsc && node src/mocha/NodeRunner.js",
